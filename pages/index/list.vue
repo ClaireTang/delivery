@@ -25,7 +25,7 @@
 					</view>
 					<view>
 						<u-button v-if="indexActive === 0" type="primary" plain shape="circle" size="mini" @click='editOrderStatus({"order_id":obj.order_id,"state":2})'>发货</u-button>
-						<u-button v-if="indexActive === 1" type="primary" plain shape="circle" size="mini">已送达</u-button>
+						<u-button v-if="indexActive === 1" type="primary" plain shape="circle" size="mini" @click='editOrderStatus({"order_id":obj.order_id,"state":3})'>已送达</u-button>
 					</view>
 				</view>
 			</view>
