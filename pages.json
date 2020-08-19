@@ -6,7 +6,20 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "订单"
+				"navigationBarTitleText": "订单",
+				"app-plus": {
+					"titleNView": {   
+						"buttons": [
+						// 过滤条件暂未联调接口
+						{  
+							"text": "\ue627",
+							"fontSrc": "/static/iconfont/iconfont.ttf",
+							"fontSize": "20px",
+							"width": "30px"
+						}
+						]
+					}
+				} 
 			}
 		},
 		{
