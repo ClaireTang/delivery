@@ -20,7 +20,7 @@
 				<view class="u-flex u-row-between u-font-26 bottom">
 					<view class="">
 						<view class="field"><text>商品种类：</text>{{obj.item.length}}</view>
-						<view class="field"><text>支付时间：</text>{{obj.payment_time | date('yyyy-mm-dd MM:ss')}}</view>
+						<view class="field"><text>支付时间：</text>{{obj.payment_time | date('yyyy-mm-dd hh:MM:ss')}}</view>
 						<view class="field"><text>订单总价：</text>￥{{obj.goods_amount}}</view>
 					</view>
 					<view>
